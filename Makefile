@@ -14,6 +14,7 @@ ifeq ($(ARCH),ppc64le)
 ALL_STACKS:=base-notebook 
 else
 ALL_STACKS:=base-notebook \
+	bayesian-notebook \
 	minimal-notebook \
 	r-notebook \
 	scipy-notebook \
